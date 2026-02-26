@@ -2,7 +2,7 @@ local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local pGui = player:WaitForChild("PlayerGui")
-Print("nexusworkcmp.vercel.app")
+
 
 local function CreateSynapseNotify(title, text)
     local sg = Instance.new("ScreenGui")
@@ -69,6 +69,5 @@ local function CreateSynapseNotify(title, text)
     sg:Destroy()
 end
 
--- Вызов уведомления
--- 100% UNC — это мощно!
+print("nexusworkcmp.vercel.app")
 CreateSynapseNotify("Synapse X", "Succed Executed! ")
