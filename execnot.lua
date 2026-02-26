@@ -3,7 +3,6 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local pGui = player:WaitForChild("PlayerGui")
 
-
 local function CreateSynapseNotify(title, text)
     local sg = Instance.new("ScreenGui")
     sg.Name = "SynapseX_Notify"
@@ -69,4 +68,6 @@ local function CreateSynapseNotify(title, text)
     sg:Destroy()
 end
 
-CreateSynapseNotify("Synapse X", "Succed Executed! ")
+-- Вызов уведомления
+-- 100% UNC — это мощно!
+CreateSynapseNotify("Synapse X", "Executed!")
