@@ -69,5 +69,4 @@ local function CreateSynapseNotify(title, text)
     sg:Destroy()
 end
 
-print("nexusworkcmp.vercel.app")
 CreateSynapseNotify("Synapse X", "Succed Executed! ")
